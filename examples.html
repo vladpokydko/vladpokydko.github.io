@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="CV Pokydko Vladyslav, Resume Pokydko Vladyslav, Резюме Покидько Владислав, QA Engineer, Junior QA Engineer Pokydko Vladyslav">
+    <meta name="description" content="CV for Junior QA Vladyslav Pokydko">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV for Junior QA Vladyslav Pokydko</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+<body>
+    <header>
+        <nav> 
+            <ul>
+                <li><a class="waiting" href="index.html">Resume</a></li>
+                <li><a class="waiting" href="aboutme.html">About me</a></li>
+                <li><a class="current" href="examples.html">Examples</a></li>
+                <li><a class="waiting" href="contacts.html">Contacts</a></li>
+            </ul>   
+        </nav>
+    </header>
+    <br>
+    <div class="subtitle">Bug reports:</div>
+    <details>
+        <summary><b>Facebook</b>: Posts on Facebook group pages don't appear after publishing</summary>
+        <table border="1px" solid black>
+            <tr>
+                <td>Steps to reproduce</td>
+                <td>1. Open https://www.facebook.com/<br>
+                    2. Open any Facebook group page, where you have admin/editor rights<br>
+                    3. Tap on input field "Write a post..."<br>
+                    4. Type any text<br>
+                    5. Press button "Post"</td>
+            </tr>
+            <tr>
+                <td>RESULT</td>
+                <td>Inscription "Uploading" with loading tab and post don't appear after it (need to reload page to see post)</td>
+            </tr>
+            <tr>
+                <td>EXPECTED RESULT</td>
+                <td>Post appears in group feed after pressing "Post" button.</td>
+            </tr>
+            <tr>
+                <td>Author</td>
+                <td>Vladyslav Pokydko</td>
+            </tr>
+            <tr>
+                <td>Priority</td>
+                <td>High</td>
+            </tr>
+            <tr>
+                <td>Attachment:</td>
+                <td><video width="500px" controls="controls">
+                    <source src="video/facebookpagepost.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                    </video></td>
+            </tr>
+        </table>
+    </details>
+    <details>
+        <summary><b>Facebook</b>: Scheduled post in Facebook Creator studio don't appear in Scheduled tab</summary>
+        <table border="1px" solid black>
+            <tr>
+                <td>Steps to reproduce</td>
+                <td>1. Open Facebook Creator studio https://business.facebook.com/<br>
+                    2. Choose any Page to View, where you have admin/editor rights and press "View" button<br>
+                    3. Press button "Create Post"<br>
+                    4. Select "Create Post" option in drop-down list <br>
+                    5. Type any text in field "What's on your mind?"<br>
+                    6. Press option-button "Share now"<br>
+                    7. Choose "Schedule" in drop-down list<br>
+                    8. Change (or not) schedule time and press button "Schedule"<br>
+                    9. Press button "Schedule Post"<br>
+                    10. Close notification "Successfully scheduled post on Group_Name"<br>
+                    11. Select tab "Scheduled"</td>
+            </tr>
+            <tr>
+                <td>RESULT</td>
+                <td>Inscription "No results to show"</td>
+            </tr>
+            <tr>
+                <td>EXPECTED RESULT</td>
+                <td>Should be post preview.</td>
+            </tr>
+            <tr>
+                <td>Author</td>
+                <td>Vladyslav Pokydko</td>
+            </tr>
+            <tr>
+                <td>Priority</td>
+                <td>High</td>
+            </tr>
+            <tr>
+                <td>Attachment:</td>
+                <td><video width="500px" controls="controls">
+                    <source src="video/facebookscheduledposts.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                    </video></td>
+            </tr>
+        </table>
+    </details>
+    <details>
+        <summary><b>Facebook</b>: Wrong live streams rankings in Gaming section</summary>
+        <table border="1px" solid black>
+            <tr>
+                <td>Steps to reproduce</td>
+                <td>1. Open https://www.facebook.com/<br>
+                    2. Press "See more..." in Explore section (left side)<br>
+                    3. Choose "Gaming Video"<br>
+                    4. Press "Browse Games"<br>
+                    5. Click on any game (for example Grand Theft Auto V)<br>
+                    6. Press "See all" in "Live Now" section<br>
+                    </td>
+            </tr>
+            <tr>
+                <td>RESULT</td>
+                <td>After Step 5 – wrong ranking by viewers in "Live Now" section (see attachments).<br>
+                    After Step 6 – wrong ranking by viewers in "See all"></td>
+            </tr>
+            <tr>
+                <td>EXPECTED RESULT</td>
+                <td>Streams with more viewers should be ranked higher, than ones with less</td>
+            </tr>
+            <tr>
+                <td>Author</td>
+                <td>Vladyslav Pokydko</td>
+            </tr>
+            <tr>
+                <td>Priority</td>
+                <td>High</td>
+            </tr>
+            <tr>
+                <td>Attachments:</td>
+                <td><img src="img/facebookgamingranking1.png"><br>
+                    <img src="img/facebookgamingranking2.png"><br>
+                    <img src="img/facebookgamingranking3.png"></td>
+            </tr>
+        </table>  
+    </details>
+    <br>
+    <details>
+        <summary><b>Call of Duty: Modern Warfare</b>: Some rifles with additional modules are seen through the walls of Market</summary>
+        <table border="1px" solid black>
+            <tr>
+                <td>Steps to reproduce</td>
+                <td>1. Launch Call of Duty: Modern Warfare<br>
+                    2. Launch Warzone mode<br>
+                    3. Start any game with another player who will help to test this bug
+                    4. Player takes rifle (M4A1 with additional modules: long barrel and muffler).<br>
+                    5. Player stays facing the wall in market location.<br>
+                    </td>
+            </tr>
+            <tr>
+                <td>RESULT</td>
+                <td>Other players can see barrel and muffler through the wall being outside of the market.</td>
+            </tr>
+            <tr>
+                <td>EXPECTED RESULT</td>
+                <td>Other players shouldn't see the gun through the wall in FPS with tactic elements.</td>
+            </tr>
+            <tr>
+                <td>Author</td>
+                <td>Vladyslav Pokydko</td>
+            </tr>
+            <tr>
+                <td>Priority</td>
+                <td>High</td>
+            </tr>
+            <tr>
+                <td>Attachment:</td>
+                <td><img src="img/CODwallsandguns.jpg"></td>
+            </tr>
+        </table>
+    </details>
+    <details>
+        <summary><b>Call of Duty: Modern Warfare</b>: Wrong mute localization (RU)</summary>
+        <table border="1px" solid black>
+            <tr>
+                <td>Steps to reproduce</td>
+                <td>1. Launch Call of Duty: Modern Warfare<br>
+                    2. Launch "Сетевая игра"<br>
+                    3. Start any multiplayer game with teammates.<br>
+                    4. Press and hold "Tab" button in game, mouse right click to enable options opportunity.<br>
+                    5. Right click on teammate and choose option "Вкл. приглушение" in drop-down list – teammate is muted<br>
+                    6. Right click on muted teammate.
+                    </td>
+            </tr>
+            <tr>
+                <td>RESULT</td>
+                <td>Drop-down list with option "Вкл. приглушение"</td>
+            </tr>
+            <tr>
+                <td>EXPECTED RESULT</td>
+                <td>Drop-down list with option "Откл. приглушение"</td>
+            </tr>
+            <tr>
+                <td>Author</td>
+                <td>Vladyslav Pokydko</td>
+            </tr>
+            <tr>
+                <td>Priority</td>
+                <td>High</td>
+            </tr>
+            <tr>
+                <td>Attachment:</td>
+                <td><video width="800px" controls="controls">
+                    <source src="video/codmute.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                    </video></td>
+            </tr>
+        </table>        
+    </details>
+    <br>
+    <details>
+        <summary><b>Rozetka (mobile app build 4.5.0)</b>: "Ошибка сервера" in categories <font color="green">(fixed in build 4.5.1)</font></summary>
+        <table border="1px" solid black>
+            <tr>
+                <td>Steps to reproduce</td>
+                <td>1. Laucnh mobile app Rozetka (build 4.5.0)<br>
+                    2. Tap "Каталог" button on main screen<br>
+                    3. Choose category "Ноутбуки и компьютеры" (or any other)<br>
+                    4. Choose subcategory "Ноутбуки"<br>
+                </td>
+            </tr>
+            <tr>
+                <td>RESULT</td>
+                <td>Error message "Ошибка сервера. Ошибка при передаче данных с сервера"</td>
+            </tr>
+            <tr>
+                <td>EXPECTED RESULT</td>
+                <td>List of products in selected subcategory</td>
+            </tr>
+            <tr>
+                <td>Author</td>
+                <td>Vladyslav Pokydko</td>
+            </tr>
+            <tr>
+                <td>Priority</td>
+                <td>Highest</td>
+            </tr>
+            <tr>
+                <td>Attachment:</td>
+                <td><video height="500px" controls="controls">
+                    <source src="video/rozetkamobapp.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                    </video></td>
+            </tr>
+        </table>
+    </details>
+    <br>
+    <details>
+        <summary><b>OLX.ua (mobile app build 5.7.7)</b>: Auto mode in Dark Theme doesn't work</summary>
+        <table border="1px" solid black>
+            <tr>
+                <td>Steps to reproduce</td>
+                <td>1. Laucnh mobile app OLX.ua (build 5.7.7)<br>
+                    2. Tap "Профиль"<br>
+                    3. Tap "Настройки"<br>
+                    4. Tap "Темная тема"<br>
+                    5. Choose "Авто"
+                </td>
+            </tr>
+            <tr>
+                <td>RESULT</td>
+                <td>Dark mode didn't turn on at the night</td>
+            </tr>
+            <tr>
+                <td>EXPECTED RESULT</td>
+                <td>Dark mode is ON in the evening/night time</td>
+            </tr>
+            <tr>
+                <td>Author</td>
+                <td>Vladyslav Pokydko</td>
+            </tr>
+            <tr>
+                <td>Priority</td>
+                <td>Middle</td>
+            </tr>
+            <tr>
+                <td>Attachment:</td>
+                <td><video height="500px" controls="controls">
+                    <source src="video/olxdarkmode.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                    </video></td>
+            </tr>
+        </table>
+    </details>
+    <br>
+    <details>
+        <summary><b>Telegram (mobile app and desktop app integtration)</b>: Losing text in desktop because of "Draft"-text in mobile app have higher priority</summary>
+        <table border="1px" solid black>
+            <tr>
+                <td>Steps to reproduce</td>
+                <td>1. Open desktop application Telegram<br>
+                    2. Choose any chat and type message "Hello"<br>
+                    3. Launch mobile app Telegram - there is Draft message in recent chat – open it and block your phone<br>
+                    4. In Desktop version in recent chat type message "Hello! How are you?"<br>
+                    5. In mobile app from word "Hello" delete one last letter.
+                </td>
+            </tr>
+            <tr>
+                <td>RESULT</td>
+                <td>Losing typed info in desktop app </td>
+            </tr>
+            <tr>
+                <td>EXPECTED RESULT</td>
+                <td>Text/data should be synchronized in desktop and mobile app</td>
+            </tr>
+            <tr>
+                <td>Author</td>
+                <td>Vladyslav Pokydko</td>
+            </tr>
+            <tr>
+                <td>Priority</td>
+                <td>Middle</td>
+            </tr>
+            <tr>
+                <td>Attachment:</td>
+                <td><video height="500px" controls="controls">
+                    <source src="video/olxdarkmode.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                    </video></td>
+            </tr>
+        </table>
+    </details>
+    <br>
+    <details>
+        <summary><b>Ukr.net</b>: Long loading time</summary>
+        <table border="1px" solid black>
+            <tr>
+                <td>Steps to reproduce</td>
+                <td>1. Open https://www.ukr.net/<br>
+                </td>
+            </tr>
+            <tr>
+                <td>RESULT</td>
+                <td>Loading time: 5.70 s</td>
+            </tr>
+            <tr>
+                <td>EXPECTED RESULT</td>
+                <td>Loading time less than 3 s</td>
+            </tr>
+            <tr>
+                <td>Author</td>
+                <td>Vladyslav Pokydko</td>
+            </tr>
+            <tr>
+                <td>Priority</td>
+                <td>High</td>
+            </tr>
+            <tr>
+                <td>Attachment:</td>
+                <td><img src="img/ukrnetloadtime.png"></td>
+            </tr>
+        </table>
+    </details>
+    <details>
+        <summary><b>Ukr.net</b>: Main Page Error 599: Network Connect Timeout Error</summary>
+        <table border="1px" solid black>
+            <tr>
+                <td>Steps to reproduce</td>
+                <td>1. Open https://www.ukr.net/<br>
+                </td>
+            </tr>
+            <tr>
+                <td>RESULT</td>
+                <td>POST https://accounts.ukr.net/api/v1/token/verification/acquire 599<br>
+                    Ajax.js:150</td>
+            </tr>
+            <tr>
+                <td>EXPECTED RESULT</td>
+                <td>No 599 Error</td>
+            </tr>
+            <tr>
+                <td>Author</td>
+                <td>Vladyslav Pokydko</td>
+            </tr>
+            <tr>
+                <td>Priority</td>
+                <td>High</td>
+            </tr>
+            <tr>
+                <td>Attachment:</td>
+                <td><img src="img/ukrnet599.png" width=840px></td>
+            </tr>
+        </table>        
+    </details>
+    <br>
+    <div class="subtitle">Check lists:</div><br>
+    <div class="subtitle">Test cases:</div>
+</body>
+<footer>
+    <table width=100% border="0px">
+        <tr>
+            <td class="tdwhite">Contact</td>
+            <td class="tdwhite">Social</td>
+            <td class="tdwhite">Resume</td>
+        </tr>
+        <tr>
+            <td><font color=white>Ukraine, Kyiv<br>
+                phone: +380937667166<br>
+                e-mail: pokidko.vlad@gmail.com </font></td>
+            <td>  <a href="https://www.facebook.com/vladislavdozhd"><img src="img/Facebook.png" height=40px width=40px></a>
+                <a href="https://www.linkedin.com/in/vladislav-pokidko-7472a1130/"><img src="img/LinkedIn.png" height=40px width=40px></a>
+                <a href="https://t.me/vdozhd"><img src="img/telegram.png" height=40px width=40px></a>
+                <a href="https://www.instagram.com/vdozhd"><img src="img/instagram.png" height=40px width=40px></a></td>
+            <td><img src="img/ava.jpg" alt="Pokydko Vladyslav" height="100px"></td>
+        </tr>
+    </table>
+      <p align=center><font color=white>Copyright © <time datetime="2020">2020</time> 
+       Vladyslav Pokydko</font></p>
+    </footer>
+</html>
