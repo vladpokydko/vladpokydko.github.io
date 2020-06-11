@@ -1,6 +1,10 @@
-header {
-    background-color: black;
-    max-width: 95%;
+.generalwidth {
+    width: 940px;
+    margin: 20px auto;
+}
+.header {
+    background: black;
+    width: 100%;
     height: auto;
 }
 .menu {
@@ -90,8 +94,8 @@ h1 {
     font-size: 42px;
     font-weight: bolder;
 }
-footer {
+.footer {
     background-color: black;
-    max-width: 95%;
+    max-width: 100%;
     height: auto;
 }

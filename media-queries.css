@@ -1,0 +1,15 @@
+@media only screen and (max width:992px) {
+    .generalwidth {
+        width:900px;
+    }
+}
+@media only screen and (max width:768px) {
+    .generalwidth {
+        width:700px;
+    }
+}
+@media only screen and (max width:480px) {
+    .generalwidth {
+        width:420px;
+    }
+}
