@@ -1,15 +1,25 @@
 @media screen and (max-width:992px) {
     .generalwidth {
-        width:900px;
+        width:860px;
     }
 }
 @media screen and (max-width:768px) {
     .generalwidth {
-        width:700px;
+        width:640px;
     }
 }
 @media screen and (max-width:480px) and (orientation:portrait) {
     .generalwidth {
         width:420px;
+    }
+}
+@media screen and (max-width:1080px) and (orientation:portrait) {
+    .generalwidth {
+        width:920px;
+    }
+}
+@media screen and (max-width:720px) and (orientation:portrait) {
+    .generalwidth {
+        width:640px;
     }
 }
