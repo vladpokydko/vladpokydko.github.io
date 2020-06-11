@@ -86,6 +86,9 @@ td {
 span.years {
     font-size: 19px;
     }
+.leftimg {
+    float:left;
+}
 .footer {
     background-color: black;
     max-width: 100%;

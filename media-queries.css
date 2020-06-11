@@ -13,6 +13,11 @@
         width:420px;
     }
 }
+@media screen and (max-width:480px) {
+    .generalwidth {
+        width:420px;
+    }
+}
 @media screen and (max-width:1080px) and (orientation:portrait) {
     .generalwidth {
         width:920px;
