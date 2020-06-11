@@ -1,14 +1,14 @@
-@media only screen and (max width:992px) {
+@media screen and (max-width:992px) {
     .generalwidth {
         width:900px;
     }
 }
-@media only screen and (max width:768px) {
+@media screen and (max-width:768px) {
     .generalwidth {
         width:700px;
     }
 }
-@media only screen and (max width:480px) {
+@media screen and (max-width:480px) and (orientation:portrait) {
     .generalwidth {
         width:420px;
     }

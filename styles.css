@@ -15,6 +15,9 @@
 .menu li {
     display: inline;
 }
+li {
+    width:auto;
+}
 a.current {
     font-weight: bolder;
     color: white;
@@ -22,12 +25,7 @@ a.current {
 a.waiting {
     color: white;
 }
-.inform {
-    display: table;
-    position: relative;
-    border-bottom: black;
-}
-body {max-width: 95%;
+body {max-width: 90%;
     height: auto;
     margin: auto;
     border-bottom: 1px solid black;}
@@ -47,7 +45,7 @@ details {
     display: block;
     vertical-align: top;
     font-weight: bolder;
-    font-size: 35px;
+    font-size: 25px;
     margin: 0px;
  }
 p {
@@ -55,7 +53,7 @@ p {
     vertical-align: top;
     font-size: 17px;
     margin: 0px;
-    width:95%;
+    width:auto;
 }
 td {
     vertical-align: top;
@@ -68,7 +66,7 @@ td {
     margin-left: 3%;
 }
 .subtitle {
-    font-size: 25px;
+    font-size: 23px;
 	background: black;
 	color: rgb(241, 241, 225);
 	display: inline-block;
@@ -76,24 +74,18 @@ td {
 	line-height: 30px;
 }
 .mainInfo {
-    font-size: 25px;
+    font-size: 22px;
     font-weight: bold;
     padding: 0 2px;
     }
 .DetailedInfo {
-    font-size: 20px;
+    font-size: 19px;
     padding: 0 2px;
     font-style: italic;
 }
 span.years {
     font-size: 19px;
     }
-h1 {
-    display: table;
-    text-align: left;
-    font-size: 42px;
-    font-weight: bolder;
-}
 .footer {
     background-color: black;
     max-width: 100%;
